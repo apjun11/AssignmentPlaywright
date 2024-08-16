@@ -110,7 +110,7 @@ public class ScenarioUI extends BaseClassForUI {
     public void takeScreenshotOfSuggestions() {
     	Reporter.log("takeScreenshotOfSuggestions");
     	ScreenshotOptions screenshotoptions= new ScreenshotOptions();
-		page.screenshot(screenshotoptions.setPath(Paths.get("./screenshots/searchboxsuggestions.png")));
+	page.screenshot(screenshotoptions.setPath(Paths.get("./screenshots/searchboxsuggestions.png")));
 		
 		
     }
