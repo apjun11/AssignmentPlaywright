@@ -221,7 +221,7 @@ public class ScenarioUI extends BaseClassForUI {
     	
     	
     	ScreenshotOptions screenshotoptions= new ScreenshotOptions();
-		page.screenshot(screenshotoptions.setPath(Paths.get("./screenshots/WatchFromQuickView.png")));
+	newPage.screenshot(screenshotoptions.setPath(Paths.get("./screenshots/WatchFromQuickView.png")));
     }
     
     @Test(dependsOnMethods = {"takeScreenshotWatchFromQuickView"}, description="Validate Watch title From Quick View")
